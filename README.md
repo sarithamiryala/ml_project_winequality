@@ -12,10 +12,19 @@ git remote add origin https://github.com/sarithamiryala/ml_project_winequality.g
 
 git branch _M main 
 
+'''
 git push origin main 
+'''
 
 
 dvc init 
 dvc repro 
 
 pytest -v 
+
+setup command
+'''
+pip install -e .
+
+''' 
+
